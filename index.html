@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#home" class="logo">Sabahiya</a>
+    <nav class="navbar desktop-nav">
+      <a href="#home" style="--i: 1" class="active">Home</a>
+      <a href="#about" style="--i: 2">About</a>
+      <a href="#skills-section" style="--i: 3">Skills</a>
+      <a href="#portfolio" style="--i: 4">Projects</a>
+      <a href="#contact" style="--i: 5">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" aria-label="Open menu">
+      <span class="hamburger"></span>
+    </button>
+  </header>
+
+  <nav class="side-drawer" aria-hidden="true">
+    <button class="drawer-close" aria-label="Close menu">×</button>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="drawer-overlay" hidden></div>
+  <section class="home" id="home">
+    <div class="home-background-elements">
+      <div class="bg-shape shape-1"></div>
+      <div class="bg-shape shape-2"></div>
+      <div class="bg-shape shape-3"></div>
+    </div>
+    <div class="home-content">
+      <div class="home-text">
+       
+        <h3 class="greeting">Hello, I'm</h3>
+        <h1 class="name-title">
+          <span class="name-highlight">Sabahiya</span> Shahul
+        </h1>
+        <div class="role-container">
+          <h3 class="role-text">I am a <span class="text">Front-End Developer</span></h3>
+        </div>
+        <div class="key-highlights">
+          <div class="highlight-badge">
+            <i class="fa-solid fa-code"></i>
+            <span>3+ Years Experience</span>
+          </div>
+          
+        </div>
+        <p class="intro-text">
+          Experienced Front-End Developer specializing in responsive, high-performance web applications
+          and eCommerce solutions. Passionate about creating exceptional user experiences through
+          modern technologies and best practices.
+        </p>
+        <div class="home-actions">
+          <a href="#portfolio" class="btn-box btn-primary">
+            <span>Explore My Work</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn-box btn-secondary">
+            <span>Get In Touch</span>
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+        <div class="home-brand-icons">
+          <a href="https://www.linkedin.com/in/sabahiya/" target="_blank" style="--i: 6" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/sabhaHere" target="_blank" style="--i: 7" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://wa.me/919745546622" style="--i: 9" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <!-- <a href="#" style="--i: 8" title="Instagram"><i class="fa-brands fa-instagram"></i></a> -->
+        </div>
+      </div>
+      <div class="home-image">
+        <div class="image-wrapper">
+          <div class="image-glow"></div>
+          <img src="images/WhatsApp Image 2025-09-06 at 10.10.43 PM.jpeg" alt="Sabahiya Shahul" />
+          <div class="image-border"></div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>About<span>Me</span></h2>
+        <h4>Front-End Developer</h4>
+        <p>
+          I'm Sabahiya Shahul, a passionate Front-End Developer with 3 years of
+          expertise in creating responsive, high-performance web applications. I
+          specialize in modern JavaScript frameworks including Angular (14-20)
+          and React, with extensive experience in Angular Signals, RxJS, and
+          state management solutions. I am an unstoppable person, driven by determination and a relentless pursuit of excellence in everything I do.
+        </p>
+        <p>
+          My approach combines technical excellence with user-centered design,
+          ensuring that every application I build is not only functional but
+          also intuitive and delightful to use. I'm passionate about writing
+          clean, maintainable code and staying up-to-date with the latest
+          industry trends and best practices.
+        </p>
+        <p>
+          I aspire to become a team lead who can guide and support people, helping them grow and achieve their full potential. With this goal in mind, I am learning every day to improve my knowledge and skills, continuously expanding my expertise in leadership, communication, and technical mentorship.
+        </p>
+        <a href="#contact" class="btn-box">Contact Me</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h2>UI/UX Design</h2>
+            <p>
+              I craft beautiful, user-friendly interfaces using HTML5, SCSS,
+              Bootstrap, Tailwind CSS, and Angular Material, bringing designs
+              to life with smooth CSS animations and interactive elements that
+              delight users. My design philosophy centers on creating
+              accessible, responsive experiences that work flawlessly across
+              all devices and browsers.
+            </p>
+      
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-brands fa-angular"></i>
+            </div>
+            <h2>Angular Development</h2>
+            <p>
+              Specialized in building robust, scalable applications using Angular (14-20)
+              with expertise in Angular Signals, RxJS, and state management. I create
+              high-performance single-page applications with clean architecture,
+              component-based design, and seamless user experiences.
+            </p>
+
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <h2>React Development</h2>
+            <p>
+              Expert in developing modern React applications with hooks, context API,
+              and Redux for state management. I build responsive, component-driven
+              interfaces with optimal performance, code reusability, and maintainable
+              architecture using the latest React best practices.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills-section">
+    <h1 class="sub-title">My<span>Skills</span></h1>
+    <div class="skills-wrapper">
+      <!-- Technical Skills -->
+      <div class="skills-category">
+        <div class="category-header">
+          <i class="fa-solid fa-code"></i>
+          <h2>Technical Skills</h2>
+        </div>
+        <div class="skills-showcase">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic HTML, Accessibility, Web APIs</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <h3>CSS3 / SCSS</h3>
+            <p>Animations, Flexbox, Grid, Responsive Design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>ES6+, Async/Await, DOM, Modules, Fetch API</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+            <h3>TypeScript</h3>
+            <p>Type Safety, Interfaces, Advanced Types</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-brands fa-angular"></i>
+            </div>
+            <h3>Angular</h3>
+            <p>Angular 14-20, Signals, RxJS, State Management</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <h3>React</h3>
+            <p>Hooks, Redux, Context API, Performance</p>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>Version Control, Collaboration, CI/CD</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-code-branch"></i>
+            </div>
+            <h3>Nx Monorepo</h3>
+            <p>Monorepo Architecture, Shared Libraries</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fa-solid fa-plug"></i>
+            </div>
+            <h3>APIs</h3>
+            <p>REST, GraphQL, Axios, SignalR</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Skills -->
+      <div class="skills-category">
+        <div class="category-header">
+          <i class="fa-solid fa-user-tie"></i>
+          <h2>Professional Skills</h2>
+        </div>
+        <div class="professional-skills-showcase">
+          <div class="professional-skill-card">
+            <div class="pro-skill-icon">
+              <i class="fa-solid fa-microphone"></i>
+            </div>
+            <h3>Public Speaking</h3>
+            <p>Technical presentations and knowledge sharing</p>
+          </div>
+          <div class="professional-skill-card">
+            <div class="pro-skill-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3>Creativity</h3>
+            <p>Innovative problem-solving and design thinking</p>
+          </div>
+          <div class="professional-skill-card">
+            <div class="pro-skill-icon">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <h3>Communication</h3>
+            <p>Clear technical communication and collaboration</p>
+          </div>
+          <div class="professional-skill-card">
+            <div class="pro-skill-icon">
+              <i class="fa-solid fa-puzzle-piece"></i>
+            </div>
+            <h3>Problem Solving</h3>
+            <p>Analytical thinking and efficient solutions</p>
+          </div>
+          <div class="professional-skill-card">
+            <div class="pro-skill-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <h3>Teamwork</h3>
+            <p>Collaborative development in Agile environments</p>
+          </div>
+          
+          <div class="professional-skill-card">
+            <div class="pro-skill-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3>Smart Working</h3>
+            <p>Efficient workflow optimization and best practices</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience-section">
+    <h1 class="sub-title">My <span>Experience</span></h1>
+    <div class="experience-container">
+    
+
+      <!-- Twisted Mountain Animation -->
+      <div class="experience-item">
+        <div class="experience-header">
+          <div class="experience-company-info">
+            <h3>Angular Developer</h3>
+            <h4>Twisted Mountain Animation</h4>
+            <div class="experience-location">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Vancouver,Canada (Remote)</span>
+            </div>
+            <div class="experience-duration">
+              <i class="fa-solid fa-calendar"></i>
+              <span>June 2025 – November 2025</span>
+            </div>
+            <div class="experience-company-desc">
+              <p>A creative studio focused on animation, digital media, and interactive content. The company combines design and technology to build engaging visual and web-based experiences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-content">
+          <h5 class="responsibilities-title">My Responsibilities & Work:</h5>
+          <ul class="experience-responsibilities">
+            <li>Worked as an Angular Developer, building and maintaining dynamic, component-based web applications.</li>
+            <li>Developed reusable UI components using Angular, TypeScript, HTML, and CSS.</li>
+            <li>Integrated frontend features with backend APIs to display real-time data.</li>
+            <li>Created reusable UI components with Angular Material and Bootstrap, improving development efficiency.</li>
+            <li>Collaborated with designers and animators to translate creative concepts into functional web interfaces.</li>
+            <li>Improved application performance and ensured responsive design across devices.</li>
+            <li>Integrated GraphQL APIs alongside RESTful services to streamline data fetching and improve application efficiency.</li>
+          </ul>
+          <div class="experience-tech">
+            <span class="tech-badge">Angular</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">Nx Monorepo</span>
+            <span class="tech-badge">Angular Signals</span>
+            <span class="tech-badge">primeNg</span>
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">REST APIs</span>
+            <span class="tech-badge">Git</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tamimah Telecom -->
+      <div class="experience-item">
+        <div class="experience-header">
+          <div class="experience-company-info">
+            <h3>Frontend Developer (React & Angular)</h3>
+            <h4>Tamimah Telecom</h4>
+            <div class="experience-company-desc">
+              <p>A telecommunications company providing digital and technology-driven solutions. The organization focuses on delivering reliable services and modern web applications to support its business operations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-content">
+          <h5 class="responsibilities-title">My Responsibilities & Work:</h5>
+          <ul class="experience-responsibilities">
+            <li>Developed responsive web applications using Angular (AngularJS, 14, 18, 20) and React with TypeScript.</li>
+            <li>Built interactive and user-friendly web interfaces for internal and customer-facing applications.</li>
+            <li>Developed reusable components and managed application state in React.</li>
+            <li>Created and maintained Angular modules, services, and components.</li>
+            <li>Integrated RESTful APIs and handled data flow between frontend and backend systems.</li>
+            <li>Ensured cross-browser compatibility and responsive design.</li>
+            <li>Participated in debugging, testing, and performance optimization.</li>
+          </ul>
+          <div class="experience-tech">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Angular</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">TypeScript</span>
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">REST APIs</span>
+            <span class="tech-badge">Git</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio-section">
+    <h1 class="sub-title">My <span>Projects</span></h1>
+    <div class="portfolio-container">
+      <div class="portfolio-item">
+        <div class="portfolio-image-wrapper object-contain">
+          <img src="images/mcdNewLogo.png" alt="Oman Stock Admin Portal" class="portfolio-image">
+          
+        </div>
+        <div class="portfolio-content">
+          <h3>Oman Stock Admin Portal</h3>
+          <p>A secure administrative portal for stock management featuring role-based authentication, centralized state management, and optimized performance with modern React patterns.</p>
+          <div class="portfolio-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Built with React functional components and hooks</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Redux for centralized state management</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Performance optimized with React.memo and lazy loading</span>
+            </div>
+          </div>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>Redux</span>
+            <span>JavaScript</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image-wrapper">
+          <img src="images/logo_tamimah.png" alt="Mass SMS Management System" class="portfolio-image">
+         
+        </div>
+        <div class="portfolio-content">
+          <h3>Mass SMS Management System - Ooredoo</h3>
+          <p>A comprehensive telecommunications platform for managing bulk SMS operations with real-time analytics, batch processing, and delivery tracking for Ooredoo.</p>
+          <div class="portfolio-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Angular 17 with reactive forms and validation</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Scalable messaging queue with RxJS operators</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Responsive dashboard with Angular Material</span>
+            </div>
+          </div>
+          <div class="tech-stack">
+            <span>Angular 17</span>
+            <span>TypeScript</span>
+            <span>RxJS</span>
+            <span>Angular Material</span>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image-wrapper">
+          <img src="images/project3.jpg" alt="Real-Time Chat Application" class="portfolio-image">
+         
+        </div>
+        <div class="portfolio-content">
+          <h3>Real-Time Chat Application</h3>
+          <p>An instant messaging platform with bidirectional real-time communication, automatic reconnection handling, and seamless user experience powered by SignalR.</p>
+          <div class="portfolio-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Real-time messaging with SignalR Hub connections</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Automatic reconnection for reliability</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Built with React functional components</span>
+            </div>
+          </div>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>SignalR</span>
+            <span>JavaScript</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+          </div>
+         
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image-wrapper">
+          <img src="images/logo.png" alt="Digital Welfare Platform" class="portfolio-image">
+         
+        </div>
+        <div class="portfolio-content">
+          <h3>Digital Welfare Platform - Tabseet</h3>
+          <p>A modern welfare management system leveraging Angular 18 Signals for reactive state management, Nx monorepo architecture, and standalone components for optimal scalability.</p>
+          <div class="portfolio-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Angular 18 with Signals for reactive state</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Nx monorepo with shared libraries</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Standalone components replacing RxJS patterns</span>
+            </div>
+          </div>
+          <div class="tech-stack">
+            <span>Angular 18</span>
+            <span>Angular Signals</span>
+            <span>TypeScript</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image-wrapper">
+          <img src="images/digipazz.jpg" alt="DigiPazz" class="portfolio-image">
+          
+        </div>
+        <div class="portfolio-content">
+          <h3>DigiPazz - Norman Cay Island</h3>
+          <p>A comprehensive access control and attendance management system for Norman Cay Island, USA. Handles employee and VIP entry/exit tracking using QR code technology for seamless security management.</p>
+          <div class="portfolio-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>QR code generation and scanning for access control</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Real-time employee entry/exit tracking system</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-check-circle"></i>
+              <span>Automated attendance management and reporting</span>
+            </div>
+          </div>
+          <div class="tech-stack">
+            <span>React</span>
+            <span>JavaScript</span>
+            <span>QR Code API</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Download Section -->
+  <section id="resume" class="resume-section">
+    <div class="resume-container">
+      <div class="resume-content">
+        <h2>Download My <span>Resume</span></h2>
+        <p>Get a copy of my resume to learn more about my experience, skills, and achievements.</p>
+        <a href="images/SABAHIYA SHAHUL T S -RESUME.pdf" class="resume-download-btn" target="_blank">
+          <i class="fa-solid fa-download"></i> Download Resume (PDF)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h1 class="sub-title">Contact <span>Me</span></h1>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Let's Connect!</h3>
+        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>sabahiya1995@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+965 97492154</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Kuwait City</h4>
+              <p>Available for Remote Work</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/sabahiya/" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/sabhaHere" class="social-link"><i class="fa-brands fa-github"></i></a>
+         
+        </div>
+      </div>
+     
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Sabahiya Shahul. All rights reserved.</p>
+  </footer>
+
+  <!-- WhatsApp quick-access button -->
+  <a href="https://wa.me/919745546622" class="whatsapp-fab" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
