@@ -36,6 +36,27 @@ document.addEventListener('DOMContentLoaded', function () {
 		a.addEventListener('click', () => closeDrawer());
 	});
 
+	// Tab functionality for About section
+	const tabButtons = document.querySelectorAll('.tab-btn');
+	const tabContents = document.querySelectorAll('.tab-content');
+
+	tabButtons.forEach(button => {
+		button.addEventListener('click', function () {
+			const tabName = this.getAttribute('data-tab');
+			
+			// Remove active class from all buttons and contents
+			tabButtons.forEach(btn => btn.classList.remove('active'));
+			tabContents.forEach(content => content.classList.remove('active'));
+			
+			// Add active class to clicked button and corresponding content
+			this.classList.add('active');
+			const activeTab = document.getElementById(tabName);
+			if (activeTab) {
+				activeTab.classList.add('active');
+			}
+		});
+	});
+
 	// Scrollspy: highlight nav links based on section in view
 	const navLinks = document.querySelectorAll('.navbar a');
 	const sideLinks = document.querySelectorAll('.side-drawer a');
